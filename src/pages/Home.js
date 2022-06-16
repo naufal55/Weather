@@ -73,7 +73,9 @@ export default function Home() {
         />
       );
     } else if (eventKey === "link-4") {
-      setComponent(<Astronomy sunrise={astronomy.sunrise} sunset={astronomy.sunset} />);
+      setComponent(
+        <Astronomy sunrise={astronomy.sunrise} sunset={astronomy.sunset} />
+      );
     }
   };
 
